@@ -1,0 +1,16 @@
+div.contanier {
+    color: #2c2c2c;
+    background-color: #04000037;
+    box-shadow: 20px 20px 30px 30px #3e393933;
+    border: 0px #efefef37 solid;
+    width: 40%;
+    min-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  
+  

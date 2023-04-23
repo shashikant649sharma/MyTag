@@ -1,0 +1,134 @@
+div.banner{
+
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right:auto ;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius:10px ;
+}
+
+div.banner div.found{
+    width: 50%;
+    height: 90%;
+    padding-left: 2%;
+    
+   
+    /* background-color: rgb(223, 223, 240); */
+}
+div.banner div.found p{
+    padding-top: 20px;
+    width: 100%;
+    font-size: 90px;
+    padding-left: 30px;
+    line-height: 1;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.438);
+}
+div.banner div.found form input{
+    margin-top: 50px;
+    margin-left: 20px;
+   padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+div.banner div.found form .serch{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+   
+}
+
+div.user {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    /* background-color: blue; */
+}
+div.banner div.user p{
+    
+    padding-top: 20px;
+    width: 100%;
+    font-size: 90px;
+    padding-left: 30px;
+    line-height: 1;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.438);
+}
+div.user div.signup{
+    width: 50%;
+    /* background-color: rgba(0, 0, 0, 0.616); */
+    height: 80vh;
+}
+
+div.user div.login{
+    justify-items: end;
+    text-align: left;
+    width: 50%;
+    /* background-color: rgba(0, 0, 0, 0.616); */
+    height: 80vh;
+    /* border-radius: 10px; */
+}
+div.user div.login p{
+    margin-right: 130px;
+}
+/* div.banner div.user button.bbuttn2{
+    padding: 10px; 
+    width: 60%;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.616);
+     color: rgba(0, 0, 0, 0.562); 
+} */
+div.signup button.bbuttn{
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 5px 15px 5px 15px ;
+    border: none;
+    border-radius: 5px;
+   
+     font-weight:900;
+}
+div.login button.bbuttn{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding:  5px 40px 5px 40px;
+    border: none;
+    border-radius: 5px;
+
+     font-weight:900;
+}
+button {
+
+    
+    color: rgba(255, 255, 255, 0.50);
+    text-shadow: 1px 1px wheat;
+
+	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 40s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+button:hover{
+    animation: gradient 5s ease infinite;
+
+}

@@ -1,0 +1,64 @@
+/* body {
+  height: 100vh;
+  background: #ffafbd;
+  background: -webkit-liner-gradient(#ffafbd, #ffc3a0); 
+  background: -o-linear-gradient(#ffafbd, #ffc3a0);
+  background: -moz-linear-gradient(#ffafbd, #ffc3a0);
+  background: linear-gradient(#ffafbd, #ffc3a0);
+} */
+
+
+
+
+div.contanier {
+  color: #2c2c2c;
+  background-color: #04000037;
+  box-shadow: 20px 20px 30px 30px #3e393933;
+  border: 0px #efefef37 solid;
+  width: 40%;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+div.contanier form {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.contanier form label {
+  text-align: left;
+}
+div.contanier form input {
+  /* text-align: center; */
+  background-color: #ffffff45;
+  margin-bottom: 20px;
+  width: 90%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 6px;
+  border: 2px solid #ffffff45;
+  box-shadow: 2px 2px 2px 2px #3e393933;
+}
+div.contanier form input.radio {
+  width: 10px;
+  transform: scale(2);
+  box-shadow: none;
+  background-color: white;
+}
+
+div.contanier form .btnn {
+  width: 50%;
+  background-color: #ffb7af9a;
+  color: white;
+  text-shadow: #2c2c2c75 1px 1px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid #ffffff45;
+  box-shadow: 2px 2px 2px 2px #3e393933;
+}
